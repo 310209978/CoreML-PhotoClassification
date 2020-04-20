@@ -15,6 +15,7 @@
 		B93F2019244D3F00002437FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93F2017244D3F00002437FC /* LaunchScreen.storyboard */; };
 		B93F2024244D3F00002437FC /* CoreML_PhotoClassificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93F2023244D3F00002437FC /* CoreML_PhotoClassificationTests.swift */; };
 		B93F202F244D3F00002437FC /* CoreML_PhotoClassificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93F202E244D3F00002437FC /* CoreML_PhotoClassificationUITests.swift */; };
+		B93F203D244D501D002437FC /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B93F203C244D501D002437FC /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B93F202A244D3F00002437FC /* CoreML-PhotoClassificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreML-PhotoClassificationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93F202E244D3F00002437FC /* CoreML_PhotoClassificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreML_PhotoClassificationUITests.swift; sourceTree = "<group>"; };
 		B93F2030244D3F00002437FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B93F203C244D501D002437FC /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		B93F2000244D3EFE002437FC = {
 			isa = PBXGroup;
 			children = (
+				B93F203C244D501D002437FC /* SqueezeNet.mlmodel */,
 				B93F200B244D3EFE002437FC /* CoreML-PhotoClassification */,
 				B93F2022244D3F00002437FC /* CoreML-PhotoClassificationTests */,
 				B93F202D244D3F00002437FC /* CoreML-PhotoClassificationUITests */,
@@ -262,6 +265,7 @@
 				B93F2011244D3EFE002437FC /* ViewController.swift in Sources */,
 				B93F200D244D3EFE002437FC /* AppDelegate.swift in Sources */,
 				B93F200F244D3EFE002437FC /* SceneDelegate.swift in Sources */,
+				B93F203D244D501D002437FC /* SqueezeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R4F24F8N4Y;
 				INFOPLIST_FILE = "CoreML-PhotoClassification/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R4F24F8N4Y;
 				INFOPLIST_FILE = "CoreML-PhotoClassification/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
